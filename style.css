@@ -67,7 +67,6 @@ button:hover{
     width: 100%;
     background-color: black;
     color: #fff;
-    border: solid blue 2px;
 }
 
 .page_main .main_header{
@@ -82,7 +81,6 @@ button:hover{
     background-repeat: no-repeat;
     background-size: 70%;
     width: 100%;
-    border: solid blue 2px;
 }
 
 .main_header p{
@@ -94,11 +92,15 @@ h1{
     font-size: 40px;
 }
 
-.image_slider{
+/*.image_group{
     height: 250px;  
     width: 100%;
-    display: flex;                         /*  added  */
-    justify-content: center;               /*  hor. center  */
-    align-items: center;                   /*  ver. center  */
+    display: flex; 
+    flex-wrap: wrap;                       
+    justify-content: space-around;               
+    align-items: center;                   
     background-color: whitesmoke;
 }
+
+.image_group div{
+}*/
